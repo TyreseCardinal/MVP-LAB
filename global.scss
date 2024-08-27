@@ -1,0 +1,91 @@
+// src/assets/styles/global.scss
+
+@import './variables';
+
+// Basic Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body Styling
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: $background-color;
+  color: $primary-color;
+}
+
+// // Buttons
+// button {
+//   background-color: #2C1555;
+//   /* Primary color */
+//   color: #FFFFFF;
+//   /* Text color */
+//   padding: 12px 24px;
+//   /* Padding */
+//   font-size: 16px;
+//   /* Font size */
+//   border: none;
+//   /* No border */
+//   border-radius: 5px;
+//   /* Rounded corners */
+//   cursor: pointer;
+//   /* Pointer cursor on hover */
+//   transition: background-color 0.3s ease, transform 0.2s ease;
+//   /* Smooth transition */
+//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+//   /* Subtle shadow */
+// }
+
+// /* Hover effect */
+// button:hover {
+//   background-color: #CD84D4;
+//   /* Secondary color on hover */
+//   color: #2C1555;
+//   /* Text color changes on hover */
+//   transform: scale(1.05);
+//   /* Slightly enlarges the button */
+// }
+
+// /* Active button effect */
+// button:active {
+//   transform: scale(0.95);
+//   /* Slightly shrinks the button on click */
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+//   /* Changes shadow on click */
+// }
+
+// button:hover::after {
+//   transform: scaleX(1);
+// }
+
+// // Cards
+// .card {
+//   background-color: #fff;
+//   border-radius: $border-radius;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   padding: 20px;
+//   margin: 20px;
+// }
+
+// // Inputs
+// input,
+// textarea {
+//   border: 1px solid #ddd;
+//   border-radius: $border-radius;
+//   padding: 10px;
+//   width: 25em;
+//   margin: 10px 0;
+// }
+
+// // Links
+// a {
+//   color: $detail-color;
+//   text-decoration: none;
+//   transition: color 0.3s ease;
+
+//   &:hover {
+//     color: $secondary-color;
+//   }
+// }
